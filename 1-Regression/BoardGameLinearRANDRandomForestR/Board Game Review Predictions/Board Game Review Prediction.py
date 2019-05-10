@@ -139,4 +139,4 @@ py.plot(data, filename='Simple Linear Regression 2')
 
 print("MSE",np.mean((y_test-y_pred)**2),np.mean((y_pred - y_test) ** 2))
 print("MAE",np.mean(np.abs(y_test-y_pred)),np.mean(np.absolute(y_pred - y_test)))
-print("R2_score",r2_score(y_pred,y_test))
+print("R2_score",r2_score(y_test,y_pred))
